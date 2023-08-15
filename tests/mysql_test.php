@@ -2,11 +2,11 @@
     require_once '../includes/funcoes.php';
     require_once '../core/conexao_mysq.php';
     require_once '../core/sql.php';
-    require_once '../core/mysql.php';
+    require_once '../core/mysq.php';
 
-    insert_teste('flavio', 'luan@gmail.com', '123456');
+    insert_teste('loan', 'luan@gmail.com', '123456');
     buscar_teste();
-    update_teste(38, 'loan', 'lil wa@gmail.com');
+    update_teste(38, 'loan', 'lilwa@gmail.com');
     buscar_teste();
 
     function insert_teste($nome, $email, $senha) : void

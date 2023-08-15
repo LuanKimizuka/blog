@@ -56,7 +56,7 @@
 
             $campos_criterio[] = $nome_campo;
 
-            $$nome_campo = $dado;
+            $nome_campo = $dado;
         }
 
         $instrucao = update($entidade, $coringa_dados, $coringa_criterio);
@@ -108,9 +108,9 @@
 
             $$nome_campo = $dado;
         }
-
+        
         $instrucao = delete($entidade, $coringa_criterio);
-
+        echo $instrucao;
         $conexao = conecta();
 
         $stmt = mysqli_prepare($conexao, $instrucao);
