@@ -1,8 +1,8 @@
 <?php
     require_once '../includes/funcoes.php';
-    require_once '../core/conexao_mysq.php';
+    require_once '../core/conexao_mysql.php';
     require_once '../core/sql.php';
-    require_once '../core/mysq.php';
+    require_once '../core/mysql.php';
 
     insert_teste('7', 'maomeno', 1, date('Y-m-d H:i:s'), date('Y-m-d H:i:s'));
     insert_teste('6', 'bem maomeno', 2, date('Y-m-d H:i:s'), date('Y-m-d H:i:s'));

@@ -1,8 +1,8 @@
 <?php
     require_once '../includes/funcoes.php';
-    require_once '../core/conexao_mysq.php';
+    require_once '../core/conexao_mysql.php';
     require_once '../core/sql.php';
-    require_once '../core/mysq.php';
+    require_once '../core/mysql.php';
 
     insert_teste('loan', 'luan@gmail.com', '123456');
     buscar_teste();
