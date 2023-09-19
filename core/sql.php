@@ -64,3 +64,4 @@
 
         return $instrucao;
     }
+?>
